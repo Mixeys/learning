@@ -1,0 +1,41 @@
+#main {
+	min-height: 40px;
+	color: red;
+	font-size: 25px;
+}
+
+#colorDiv {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.divRed {
+	background-color: red;
+}
+
+.divGreen {
+	background-color: green;
+}
+
+.tooltip {
+	box-shadow: 1px 1px 2px 2px black;
+	border: 1px solid black;
+	padding: 2px;
+	font: bold 14px/14px monospace;
+	background-color: whitesmoke;
+}
+
+#dinamColor {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+ul li {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}

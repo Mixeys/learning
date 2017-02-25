@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ES6</title>
+	<link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+	<div id="main"></div>
+	<button id="start">Start</button>
+	<button id="stop">Stop</button>
+	<button id="reset">Reset</button>
+
+	<div id="colorDiv" class="divGreen"></div>
+	<button id="touch">touch me</button>
+
+	<form id="form" action="" method="get">
+		<input id="login" type='text' name='login'>
+		<input type='password' name='password'>
+		<input type="reset" onclick=" return confirm('Вы уверены?'); ">
+		<input type='submit' name='submit' value="Submit">
+	</form>
+
+	<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsam facilis modi, sapiente dolor assumenda nisi, laborum quisquam nobis itaque doloremque totam. Est maxime qui fugiat dicta repudiandae. Rerum, illo.</p>
+	<div id="dinamColor"></div>
+
+	<input type="button" value="touch me" onclick="if(window.count) count++; else count = 1; this.value = count">
+
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<script src="src/main.js"></script>
+</body>
+
+</html>
